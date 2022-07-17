@@ -1,0 +1,37 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+.container{
+    width: 640px;
+    margin: 0 auto;
+}
+.fz20{
+    font-size: 20px;
+    line-height: 1.2;
+}
+.fz16{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.content{
+    display: flex;
+}
+.section1{
+    display: flex;
+    margin-bottom: 24px;
+}
+.section2{
+    display: flex;
+    margin-bottom: 24px;
+}
+.text{
+    margin: 0px 24px;
+    max-width: 288px;
+}
+img{
+    display: block;
+}
+.footer{
+    text-align: center;
+    padding: 48px 0px;
+}
