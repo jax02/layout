@@ -288,6 +288,9 @@ img{
 .pl-8{
     padding-left: 32px;
 }
+.mobilContactInfo{
+    display: none;
+}
 @media (max-width:768px) {
     .container{
         max-width: 696px;
@@ -358,5 +361,52 @@ img{
     .footer a{
         font-size: 14px;
         line-height: 21px;
+    }
+    .mobilContactInfo{
+        display: none;
+    }
+}
+@media (max-width:375px) {
+    .container{
+        max-width: 375px;
+        padding: 0px 12px;
+    }
+    .introduction .item{
+        width: 80%;
+    }  
+    .classic .item{
+        width: 100%;
+    }
+    .recommend .card{
+        width: 100%;
+    }
+    .contact .container{
+        width: 100%;
+    }
+    .contact .container .btn{
+        width: 100%;
+    }
+    .mobil, .mobilContactInfo{
+        display: block;
+    }
+    .mobil{
+        display: flex;
+        justify-content: space-between;
+    }
+    .media a{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .nav,.contactInfo{
+        display: none;
+    }
+    .terms{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .terms ul{
+        display: flex;
+        flex-direction: column;
     }
 }
