@@ -293,7 +293,7 @@ img{
 }
 @media (max-width:768px) {
     .container{
-        max-width: 696px;
+        max-width: 768px;
         padding: 0px 12px;
     }
     .header .nav{
@@ -354,6 +354,9 @@ img{
     .recommend .card{
         width: 40%;
     }
+    .contact .container{
+        width: 80%;
+    }
     .contactInfo h3{
         font-size: 16px;
         line-height: 24px;
@@ -366,9 +369,9 @@ img{
         display: none;
     }
 }
-@media (max-width:375px) {
+@media (max-width:415px) {
     .container{
-        max-width: 375px;
+        max-width: 415px;
         padding: 0px 12px;
     }
     .introduction .item{
