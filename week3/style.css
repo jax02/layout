@@ -82,6 +82,10 @@ body{
     font-size: 1.8rem;
     line-height: 2.7rem;
 }
+.footer .nav .media li a{
+    display: flex;
+    justify-content: flex-end;
+}
 .cards{
     gap:0px 24px;
 }
@@ -92,7 +96,7 @@ body{
     gap:0px 24px;
 }
 .card{
-    max-width: 22%;
+    width: 22%;
     box-shadow: 0px 2px 6px #00000029;
 }
 .card-content{
@@ -127,6 +131,10 @@ img{
 	text-indent: 101%;
     white-space: nowrap;
     overflow: hidden;
+}
+.header a{
+    text-decoration: none;
+    color: #fff;
 }
 .banner{
     height: 787px;
@@ -279,4 +287,76 @@ img{
 }
 .pl-8{
     padding-left: 32px;
+}
+@media (max-width:768px) {
+    .container{
+        max-width: 696px;
+        padding: 0px 12px;
+    }
+    .header .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+    .header ul{
+        width: 110%;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 16px;
+    }  
+    .header li{
+        width: 50%;
+        padding: 0px;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+    .introduction .items{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap:24px;
+    }
+    .introduction .item{
+        width: 43%;
+    }  
+    .classic .items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:24px 0px;
+    }  
+    .classic .item{
+        width: 50%;
+    }
+    .jointName .items{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap:24px;
+    }
+    .jointName .item{
+        width: 100%;
+    }
+    .recommend .cards{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap:24px;
+    }
+    .recommend .card{
+        width: 40%;
+    }
+    .contactInfo h3{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer a{
+        font-size: 14px;
+        line-height: 21px;
+    }
 }
