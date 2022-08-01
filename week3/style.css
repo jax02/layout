@@ -41,6 +41,7 @@ body{
 }
 .container{
     max-width: 1296px;
+    padding: 0px 12px;
     margin: 0 auto;
 }
 .container .item img{
@@ -291,6 +292,9 @@ img{
 .mobilContactInfo{
     display: none;
 }
+.media{
+    display: none;
+}
 @media (max-width:768px) {
     .container{
         max-width: 768px;
@@ -368,10 +372,13 @@ img{
     .mobilContactInfo{
         display: none;
     }
+    .media{
+        display: none;
+    }
 }
-@media (max-width:415px) {
+@media (max-width:375px) {
     .container{
-        max-width: 415px;
+        max-width: 375px;
         padding: 0px 12px;
     }
     .introduction .item{
@@ -389,10 +396,10 @@ img{
     .contact .container .btn{
         width: 100%;
     }
-    .mobil, .mobilContactInfo{
+    .mobile, .mobilContactInfo{
         display: block;
     }
-    .mobil{
+    .mobile{
         display: flex;
         justify-content: space-between;
     }
@@ -411,5 +418,8 @@ img{
     .terms ul{
         display: flex;
         flex-direction: column;
+    }
+    .media{
+        display: block;
     }
 }
