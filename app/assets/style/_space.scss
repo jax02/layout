@@ -1,0 +1,83 @@
+$base-space: 16px;
+
+.mt-1{
+    margin-top: $base-space;
+}
+.mt-5{
+    margin-top: $base-space * 5;
+}
+.mb-1{
+    margin-bottom: $base-space * 0.5;
+}
+.mb-2{
+    margin-bottom: $base-space;
+}
+.mb-3{
+    margin-bottom: $base-space *1.5;
+}
+.mb-4{
+    margin-bottom: $base-space * 2;
+}
+.mb-6{
+    margin-bottom: $base-space * 3;
+}
+.mb-9{
+    margin-bottom: $base-space * 4.5;
+}
+.mr-6{
+    margin-right: $base-space * 3;
+}
+.mx-2{
+    margin: 0px 12px;
+}
+.py-10{
+    padding: $base-space * 10 0px;
+}
+.py-6{
+    padding: $base-space * 3 0px;
+}
+.py-1{
+    padding: $base-space * 0.5 0px;
+}
+.py-2{
+    padding: $base-space 0px;
+}
+.py-3{
+    padding: 12px 0px;
+}
+.p1{
+    padding: 8px 8px;
+}
+.px-4{
+    padding: 0px 16px;
+}
+.px-5{
+    padding: 0px $base-space * 1.5;
+}
+.px-8{
+    padding: 0px $base-space * 2;
+}
+.pl-5{
+    padding-left: 22px;
+}
+.pl-8{
+    padding-left: $base-space * 2;
+}
+.gapX-3{
+    gap:0px $base-space * 1.5;
+  }
+.w30{
+    width: 30%;
+}
+.w50{
+    width: 50%;
+}
+.w60{
+    width: 66%;
+}
+.w100{
+    width: 100%;
+}
+.h100{
+    height: 100%;
+}
