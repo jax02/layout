@@ -11,6 +11,10 @@
     display: flex;
     justify-content: space-between;
 }
+.flex-around{
+    display: flex;
+    justify-content: space-around;
+}
 .flex-right{
     display: flex;
     flex-direction: column;

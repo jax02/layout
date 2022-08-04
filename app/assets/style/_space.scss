@@ -18,6 +18,9 @@ $base-space: 16px;
 .mb-4{
     margin-bottom: $base-space * 2;
 }
+.mb-5{
+    margin-bottom: $base-space * 5;
+}
 .mb-6{
     margin-bottom: $base-space * 3;
 }
@@ -27,11 +30,17 @@ $base-space: 16px;
 .mr-6{
     margin-right: $base-space * 3;
 }
+.mr-1{
+    margin-right: $base-space * 0.5;
+}
 .mx-2{
     margin: 0px 12px;
 }
 .py-10{
     padding: $base-space * 10 0px;
+}
+.py-5{
+    padding: $base-space * 5 0px;
 }
 .py-6{
     padding: $base-space * 3 0px;

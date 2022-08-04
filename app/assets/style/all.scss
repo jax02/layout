@@ -4,9 +4,11 @@
 @import 'flex';
 @import 'space';
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+@import 'optical';
+@import 'sunglass';
 
 .container{
-  max-width: 1296px;
+  max-width: 1320px;
   padding: 0px 12px;
   margin: 0 auto;
 }
@@ -205,3 +207,4 @@
 .font-light{
   color: $light;
 }
+// ---------------------------index

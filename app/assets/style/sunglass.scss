@@ -1,0 +1,41 @@
+@import 'mixin';
+@import 'reset';
+@import 'variables';
+@import 'flex';
+@import 'space';
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+.sunglassProduct{
+    .products{
+        gap:80px 24px; 
+        @include mobile{
+            justify-content: center;
+        }
+        .product{
+            font-size: 24px;
+            line-height: 36px;
+            width: 30%;
+            @include pad{
+                width: 45%;
+            }
+            @include mobile{
+                width: 90%;
+
+            }
+            span{
+                color: $red;
+            }
+            .box1{
+                width: 24px;
+                height: 24px;
+                background-color: #5F3E2D;
+                border-radius: 4px;
+            }
+            .box2{
+                width: 24px;
+                height: 24px;
+                background-color: #B75929;
+                border-radius: 4px;
+            }
+        }
+    }
+}

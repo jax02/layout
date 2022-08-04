@@ -1,0 +1,91 @@
+@import 'mixin';
+@import 'reset';
+@import 'variables';
+@import 'flex';
+@import 'space';
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+.Classification{
+    li{
+        width: 100%;
+        text-align: center;
+        a{
+            display: block;
+            padding: 24px 0px;
+            border-left: 1px solid #DCDCDC;
+            border-right: 1px solid #DCDCDC;
+            color: $dark;
+            text-decoration: none;
+            font-size: 32px;
+            line-height: 48px;
+            &:hover{
+                border-bottom: 8px solid $red;
+            }
+        }
+        .active{
+            border-bottom: 8px solid $red;
+        }
+    }
+}
+.seriesBanner{
+    .items{
+        img{
+            display: block;
+            width: 100%;
+        }
+    }
+}
+.seriesProduct{
+    .products{
+        gap:80px 24px; 
+        @include mobile{
+            justify-content: center;
+        }
+        .product{
+            font-size: 24px;
+            line-height: 36px;
+            width: 22%;
+            @include pad{
+                width: 45%;
+            }
+            @include mobile{
+                width: 90%;
+
+            }
+            span{
+                color: $red;
+            }
+            .box1{
+                width: 24px;
+                height: 24px;
+                background-color: #5F3E2D;
+                border-radius: 4px;
+            }
+            .box2{
+                width: 24px;
+                height: 24px;
+                background-color: #B75929;
+                border-radius: 4px;
+            }
+        }
+    }
+}
+.pageNumber{
+    ul{
+        max-width: 100%;
+        a{
+            text-decoration: none;
+            display: block;
+            padding: 12px 16px;
+            color: #555555;
+            border: 1px solid #555555;
+            &:hover{
+                background-color: $gray;
+                color: #555555;
+            }
+        }
+        .active{
+            color:#fff;
+            background-color: $dark;
+        }
+    }
+}
