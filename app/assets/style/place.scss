@@ -1,0 +1,75 @@
+@import 'mixin';
+@import 'reset';
+@import 'variables';
+@import 'flex';
+@import 'space';
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
+
+.place{
+    h1{
+        border-left: 8px solid $red;
+    }
+    .choose{
+        max-width: 50%;
+        @include pad{
+            max-width: 70%;
+        }
+        @include mobile{
+            max-width: 100%;
+        }
+        h3{
+            font-size: 22px;
+            line-height: 36px;
+        }
+        select{
+            font-size: 18px;
+            line-height: 26px;
+            width: 73%;
+        }
+    }
+}
+.areas{
+    .container{
+        gap:48px 24px;
+        @include pad{
+            display: flex;
+            justify-content: space-around;
+         }
+        @include mobile{
+           display: flex;
+           justify-content: center;
+        }
+        .area{
+            max-width: 30%;
+            @include pad{
+                max-width: 45%;
+            }
+            @include mobile{
+                max-width: 90%;
+            }
+            border: 1px solid #00000020;
+            h2{
+                padding: 8px 24px;
+                border-bottom: 1px solid #00000020;
+                font-size: 24px;
+                line-height: 1.5;
+            }
+            .content{
+                padding: 0px 24px;
+                font-size: $font;
+                line-height: 1.5;
+                span{
+                    margin-right: 11px;
+                }
+            }
+            a{  
+                padding: 16px 0;
+                display: block;
+                width: 100%;
+                text-decoration: none;
+                background-color: $dark;
+                color: $light;
+            }
+        }
+    }
+}

@@ -11,6 +11,10 @@
     display: flex;
     justify-content: space-between;
 }
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+}
 .flex-around{
     display: flex;
     justify-content: space-around;

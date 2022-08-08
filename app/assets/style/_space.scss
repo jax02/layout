@@ -30,11 +30,20 @@ $base-space: 16px;
 .mr-6{
     margin-right: $base-space * 3;
 }
+.mr-2{
+    margin-right: $base-space * 1;
+}
 .mr-1{
     margin-right: $base-space * 0.5;
 }
 .mx-2{
     margin: 0px 12px;
+}
+.pb-10{
+    padding-bottom: $base-space * 5;
+}
+.pt-6{
+    padding-top: $base-space * 6;
 }
 .py-10{
     padding: $base-space * 10 0px;
@@ -65,6 +74,9 @@ $base-space: 16px;
 }
 .px-8{
     padding: 0px $base-space * 2;
+}
+.pl-1{
+    padding-left: $base-space;
 }
 .pl-5{
     padding-left: 22px;
