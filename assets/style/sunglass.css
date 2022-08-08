@@ -110,6 +110,14 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
+.flex-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+
 .flex-around {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,11 +213,20 @@ img {
 .mr-6 {
   margin-right: 48px; }
 
+.mr-2 {
+  margin-right: 16px; }
+
 .mr-1 {
   margin-right: 8px; }
 
 .mx-2 {
   margin: 0px 12px; }
+
+.pb-10 {
+  padding-bottom: 80px; }
+
+.pt-6 {
+  padding-top: 96px; }
 
 .py-10 {
   padding: 160px 0px; }
@@ -240,6 +257,9 @@ img {
 
 .px-8 {
   padding: 0px 32px; }
+
+.pl-1 {
+  padding-left: 16px; }
 
 .pl-5 {
   padding-left: 22px; }
