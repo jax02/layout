@@ -67,25 +67,6 @@ img {
 .text-center {
   text-align: center; }
 
-.font-xs {
-  font-size: 16px;
-  line-height: 24px; }
-
-.font-s {
-  font-size: 36px;
-  line-height: 54px; }
-
-.font-m {
-  font-size: 48px;
-  line-height: 72px; }
-
-.font-l {
-  font-size: 64px;
-  line-height: 96px; }
-
-.font-bold {
-  font-weight: bold; }
-
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -303,7 +284,7 @@ img {
       .sunglassProduct .products .product {
         width: 90%; } }
     .sunglassProduct .products .product span {
-      color: #AA0601; }
+      color: #dc3545; }
     .sunglassProduct .products .product .box1 {
       width: 24px;
       height: 24px;
