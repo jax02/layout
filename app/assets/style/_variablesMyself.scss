@@ -1,0 +1,32 @@
+// color
+$light: #FbF2F2;
+$dark: #000000;
+$red: #AA0601;
+$gray: #DCDCDC;
+
+// font-size
+$font: 20px;
+.font-xs{
+    font-size: $font * 0.8;
+    line-height: $font * 1.2;
+}
+.font-s{
+    font-size: $font * 1.8;
+    line-height: $font * 2.7;
+}
+.font-m{
+    font-size: $font * 2.4;
+    line-height: $font * 3.6;
+}
+.font-l{
+    font-size: $font * 3.2;
+    line-height: $font * 4.8;
+}
+//line-height
+// font-color
+
+// font-wight
+.font-bold{
+    font-weight: bold;
+}
+// font-family
