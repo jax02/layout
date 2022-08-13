@@ -1,8 +1,8 @@
-@import 'mixin';
-@import 'reset';
-@import 'variablesMyself';
-@import 'flex';
-@import 'space';
+@import '../style/utils/mixin';
+@import '../style/base/reset';
+@import '../style/base/variablesMyself';
+@import '../style/utils/flex';
+@import '../style/utils/space';
 @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0');
 .Classification{
     li{
