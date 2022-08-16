@@ -1,0 +1,130 @@
+thead{
+    tr{
+        border-bottom: 1px solid #000;
+    }
+}
+tbody{
+    tr{
+        border-bottom: 1px solid #6C757D;
+        td{
+            .btn{
+                padding: 0;
+            }            
+        }
+    }
+}
+.contentNav{
+    margin-bottom: 48px;
+}
+.modal-title{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+}
+.contentTitle{
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: bold;
+}
+.form-label{
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 16px;
+}
+input{
+    color:#212529;
+}
+.border-bottom{
+    margin: 20px 0px;
+    border-bottom: 1px solid #6C757D;
+}
+.detail{
+    padding-top: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    .check{
+        font-size: 16px;
+        line-height: 33px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+    }
+}
+.sendMail{
+    margin-top: 20px;
+    border: 1px solid #CED4DA;
+    text-align: center;
+    padding: 16px 0px;
+    color:#CED4DA;
+}
+.accessLevel{
+    margin-top: 20px;
+    border: 1px solid #CED4DA;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px;
+    color:#212529;
+}
+.modalVisibility{
+    .modal-body{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            display: block;
+            width: 141px;
+            height: 141px;
+        }
+        .content{
+            // background-color: green;
+            width: 100%;
+            padding: 0px 24px;
+            .title{
+                margin: 0px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .detail{
+                padding-top: 10px;
+                .admin{
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+                .name{
+                    font-size: 24px;
+                    line-height: 36px;
+                    font-weight: bold;
+                }
+                .mail{
+                    font-size: 14px;
+                    line-height: 24px;
+                    color:#6C757D;
+                }
+            }
+            .status{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .verifird{
+                    background-color:#F8F9FA;
+                    padding: 4px 8px;
+                }
+            }
+        }
+    }
+}
+.pagination{
+    display: flex;
+    justify-content: flex-end;
+    .pagination{
+        .page-link{
+            color:#212529;
+            &:hover{
+                color:#fff;
+                background-color: #198754;
+            }
+        }
+    }
+}
